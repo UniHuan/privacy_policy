@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>四时养 · 隐私政策</title>
+    <style>
+        :root {
+            --primary: #3A8A5C;
+            --bg: #FAF8F3;
+            --card: #FFFFFF;
+            --text: #2C2416;
+            --text2: #8B7E6B;
+            --radius: 16px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            padding: 24px 16px 60px;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0 24px;
+        }
+        .header .icon {
+            font-size: 48px;
+            margin-bottom: 12px;
+        }
+        .header h1 {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+        .header .date {
+            font-size: 13px;
+            color: var(--text2);
+            margin-top: 6px;
+        }
+        .section {
+            background: var(--card);
+            border-radius: var(--radius);
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+        }
+        .section h3 {
+            font-size: 17px;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .section p, .section li {
+            font-size: 15px;
+            color: var(--text2);
+        }
+        .section ul {
+            padding-left: 18px;
+        }
+        .section li {
+            margin-bottom: 6px;
+        }
+        .divider {
+            border: none;
+            border-top: 1px solid #E5DDD0;
+            margin: 10px 0 16px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            font-size: 13px;
+            color: var(--text2);
+        }
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .badge {
+            display: inline-block;
+            background: var(--primary);
+            color: #fff;
+            font-size: 11px;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-left: 6px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <div class="icon">🌿</div>
+    <h1>隐私政策</h1>
+    <p class="date">生效日期：2026年6月14日</p>
+</div>
+
+<div class="section">
+    <h3>一、我们收集的信息</h3>
+    <hr class="divider">
+    <p>本应用坚持数据最小化原则，收集的信息严格限于提供服务所必需：</p>
+    <ul>
+        <li>体质测评数据：您在测评问卷中主动填写的题目答案，存储于设备本地</li>
+        <li>通知偏好：您设置的每日养生提醒开关和时间，存储于 UserDefaults</li>
+        <li>AI 问答记录（可选）：对话内容存储于设备本地</li>
+        <li>相机权限（可选）：仅在食材拍照识别时请求，图片在设备本地处理</li>
+    </ul>
+    <p style="margin-top:10px">本应用<strong>无需注册登录</strong>，不收集姓名、手机号、位置、相册等个人信息。</p>
+</div>
+
+<div class="section">
+    <h3>二、我们不收集的信息</h3>
+    <hr class="divider">
+    <ul>
+        <li>姓名、手机号、身份证号等个人身份信息</li>
+        <li>GPS / WiFi 定位数据</li>
+        <li>通讯录、相册、日历数据</li>
+        <li>设备标识符（IDFA / IDFV）</li>
+        <li>浏览历史、点击行为等使用数据</li>
+        <li>不嵌入任何第三方分析 SDK、广告 SDK 或追踪器</li>
+        <li>不向任何服务器上传数据（AI 问答仅传输当前问题文本）</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h3>三、信息的使用目的</h3>
+    <hr class="divider">
+    <p>所有信息仅用于：体质判定与调养方案（本地计算）→ 定时养生提醒（本地通知）→ AI 问答（仅传输当前问题文本）→ 食材识别（本地处理）。</p>
+    <p style="margin-top:8px">不使用您的信息进行自动化决策、用户画像或定向推荐。</p>
+</div>
+
+<div class="section">
+    <h3>四、存储与安全</h3>
+    <hr class="divider">
+    <p>核心数据存储在 iOS 设备本地，由 SwiftData 框架管理，受系统级数据保护和沙盒隔离保护。AI 问答通过 HTTPS 加密传输。本应用无自有后端服务器。</p>
+    <p style="margin-top:8px"><strong>卸载应用即删除所有本地数据。</strong></p>
+</div>
+
+<div class="section">
+    <h3>五、信息共享与披露</h3>
+    <hr class="divider">
+    <p>不向任何第三方出售、出租或分享您的个人信息。仅在以下情形涉及信息处理：</p>
+    <ul>
+        <li>AI 服务：AI 问答时将当前问题文本加密传输至服务商</li>
+        <li>法律法规要求披露的情况</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h3>六、您的权利</h3>
+    <hr class="divider">
+    <p>根据《中华人民共和国个人信息保护法》，您享有：</p>
+    <ul>
+        <li><strong>知情权</strong>：本政策完整说明信息处理情况</li>
+        <li><strong>查阅权</strong>：在体质档案查看测评结果</li>
+        <li><strong>更正权</strong>：随时重新测评更新体质类型</li>
+        <li><strong>删除权</strong>：卸载应用即删除所有本地数据</li>
+        <li><strong>撤回同意</strong>：系统设置中撤销相机权限</li>
+        <li><strong>注销权</strong>：无需注册，卸载即视为注销</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h3>七、未成年人保护</h3>
+    <hr class="divider">
+    <p>App Store 年龄分级为 4+，内容为健康科普。不故意收集 14 周岁以下未成年人信息。建议未成年人在监护人指导下使用。</p>
+</div>
+
+<div class="section">
+    <h3>八、政策更新</h3>
+    <hr class="divider">
+    <p>重大变更时启动弹窗提示，更新本页生效日期。建议定期查阅。</p>
+</div>
+
+<div class="section">
+    <h3>九、合规声明</h3>
+    <hr class="divider">
+    <p>遵守《中华人民共和国个人信息保护法》《中华人民共和国数据安全法》《App Store 审核指南》第 5 条（隐私）。已配置 PrivacyInfo.xcprivacy 清单。</p>
+</div>
+
+<div class="section">
+    <h3>十、联系我们</h3>
+    <hr class="divider">
+    <p>📧 <a href="mailto:huanyurui_innovation@outlook.com">huanyurui_innovation@outlook.com</a></p>
+    <p>我们将在 15 个工作日内回复。</p>
+</div>
+
+<div class="footer">
+    <p>🌿 四时养 · 顺时而养，日日皆良</p>
+    <p style="margin-top:4px">© 2026 SiShiYang</p>
+</div>
+
+</body>
+</html>
